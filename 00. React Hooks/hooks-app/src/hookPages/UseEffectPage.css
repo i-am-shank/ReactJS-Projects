@@ -1,0 +1,7 @@
+.sub-sub-list {
+    @apply list-[square] ml-8;
+}
+
+.use-effect {
+    @apply mb-8 mt-4 ml-1;
+}

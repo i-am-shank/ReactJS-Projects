@@ -1,0 +1,35 @@
+.main-content {
+    @apply w-[100vw] flex flex-col items-center mb-6;
+}
+
+.home-link {
+    @apply ml-2 underline text-blue-500;
+}
+
+.description {
+    @apply mt-4 w-[80vw] border-l-2 pl-8 py-1 border-orange-200;
+}
+
+.list-item {
+    @apply list-disc;
+}
+
+.sub-list {
+    @apply ml-4 list-[circle];
+}
+
+.sub-list li {
+    @apply mt-2;
+}
+
+.command {
+    @apply ml-20 font-semibold text-red-500 italic text-[1.05rem] bg-gray-200 w-fit px-2 py-1 my-1 rounded-md;
+}
+
+.sub-command {
+    @apply ml-8 font-[400] text-red-500;
+}
+
+.content {
+    @apply flex flex-col justify-center items-center;
+}

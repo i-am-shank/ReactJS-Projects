@@ -1,0 +1,23 @@
+.container {
+    @apply flex flex-col justify-center items-center h-[100vh] gap-3;
+}
+
+.intro-btn {
+    @apply ml-4;
+}
+
+.heading {
+    @apply font-bold text-gray-800 tracking-widest leading-6 outline-dotted outline-blue-800 p-2;
+}
+
+.btn {
+    @apply border px-2 py-1 bg-slate-400 text-black rounded-md hover:scale-105;
+}
+
+.links {
+    @apply flex flex-col gap-1 border-l-4 pl-4 py-6 border-orange-200;
+}
+
+.home-left {
+    @apply flex flex-col gap-4;
+}

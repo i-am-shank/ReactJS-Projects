@@ -1,0 +1,7 @@
+.parent {
+    @apply flex flex-col items-center;
+}
+
+.parent-btns {
+    @apply flex gap-6 mt-2 justify-center items-center;
+}

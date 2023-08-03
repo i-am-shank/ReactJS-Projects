@@ -1,0 +1,19 @@
+.wrapper {
+    @apply mb-4 mt-2 ml-1;
+}
+
+.hooks-container {
+    @apply w-[80vw] mx-auto flex flex-col items-center my-4;
+}
+
+.list {
+    @apply border-l-2 border-orange-200 pl-8 py-1 my-4;
+}
+
+.list-item {
+    @apply py-3;
+}
+
+.li-heading {
+    @apply font-semibold italic text-red-300;
+}

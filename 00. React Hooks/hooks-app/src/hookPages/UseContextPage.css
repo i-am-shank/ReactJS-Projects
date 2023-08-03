@@ -1,0 +1,19 @@
+.topic {
+    @apply font-semibold italic border-y-4 px-1 border-red-300 border-double;
+}
+
+.sub-topic {
+    @apply border-b-2 border-red-300 italic px-1 border-dashed mr-1;
+}
+
+.comment {
+    @apply ml-6 font-light text-green-700;
+}
+
+.code {
+    @apply ml-6 font-light;
+}
+
+.code2 {
+    @apply ml-12 font-light;
+}
