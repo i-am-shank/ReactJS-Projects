@@ -1,0 +1,44 @@
+.login {
+    @apply bg-white h-[100vh] flex flex-col items-center;
+}
+
+.login-logo {
+    @apply flex my-[30px];
+}
+
+.login-logoImage {
+    @apply text-[#ff9f00];
+}
+
+.login-logoTitle {
+    @apply text-black;
+}
+
+.login-container {
+    @apply w-[300px] h-fit flex flex-col rounded-[5px] border-[1px] border-solid border-[#lightgray] p-5;
+}
+
+.login-container > h1 {
+    @apply font-medium mb-5;
+}
+
+.login-container > form > h5 {
+    @apply mb-[5px];
+}
+
+.login-container > form > input {
+    @apply h-[30px] mb-[10px] bg-white w-[98%] border-2 border-gray-300;
+}
+
+.login-container > p {
+    @apply mt-[15px] text-[12px];
+}
+
+.login-signInButton {
+    @apply bg-[#ff9f00] rounded-sm w-full h-[30px] border-[1px] border-solid mt-[10px];
+    border-color: #a88734 #9c7e31 #846a29;
+}
+
+.login-registerButton {
+    @apply rounded-sm w-full h-[30px] border-[1px] border-solid mt-[10px] border-[darkgray] bg-gray-200;
+}

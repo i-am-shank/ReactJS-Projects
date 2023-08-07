@@ -1,0 +1,15 @@
+.product {
+    @apply flex flex-col items-center justify-end m-[10px] p-5 w-full max-h-[400px] min-w-[100px] max-w-full bg-white z-[1];
+}
+
+.add-to-basket-btn {
+    @apply bg-[#ff9f00] border-solid border-[1px] mt-2 border-t-[#a88734] border-l-[#9c7e31] border-r-[#9c7e31] border-b-[#846a29] px-2 rounded-md py-1 text-amber-950 hover:text-[#111] hover:scale-105;
+}
+
+.product-image {
+    @apply max-h-[200px] w-full object-contain mt-5 ml-4 mr-0 mb-0;
+}
+
+.product-info {
+    @apply h-[100px] mb-4;
+}

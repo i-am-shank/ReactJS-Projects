@@ -1,0 +1,55 @@
+.header {
+    @apply h-[60px] flex items-center bg-[#131921] sticky top-0 z-10;
+}
+
+.complete-logo {
+    text-decoration: none;
+}
+
+.header-logo {
+    @apply flex items-center text-[#ff9f00] ml-6 mr-6;
+}
+
+.header-logo-image {
+    @apply mr-3;
+}
+
+.header-logo-title {
+    @apply border-0 text-white font-semibold text-lg;
+}
+
+.header-search {
+    @apply flex flex-1 items-center rounded-3xl mr-3 ml-3;
+}
+
+.header-searchInput {
+    @apply h-4 p-3 border-none w-full;
+}
+
+.header-searchIcon {
+    @apply p-1 h-5 bg-[#ff9f00];
+}
+
+.header-nav {
+    @apply flex justify-evenly;
+}
+
+.nav-item {
+    @apply flex flex-col ml-3 mr-3 text-white;
+}
+
+.nav-item1 {
+    @apply text-xs;
+}
+
+.nav-item2 {
+    @apply text-sm font-extrabold;
+}
+
+.nav-basketCount {
+    @apply mr-12 ml-1;
+}
+
+.itemBasket {
+    @apply flex items-center text-white mr-4 ml-3;
+}

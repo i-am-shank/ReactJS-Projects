@@ -1,0 +1,15 @@
+.checkout {
+    @apply flex p-5 bg-white h-max;
+}
+
+.checkout-ad {
+    @apply w-full mb-[10px];
+}
+
+.checkout-title {
+    @apply mr-[10px] p-[10px] border-b-[#d3d3d3];
+}
+
+.checkout-left {
+    @apply flex flex-col;
+}
