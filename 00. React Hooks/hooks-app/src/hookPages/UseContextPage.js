@@ -34,10 +34,10 @@ export default function useContextPage() {
                                     <span className="sub-topic">
                                         Creating Context
                                     </span>{" "}
-                                    (at "src/context/context1.js", also the
+                                    (at "src/context/AppContext1.js", also the
                                     provider code in same file) :
                                     <p className="command">
-                                        {`export const context1 = createContext( ) ;`}
+                                        {`export const AppContext1 = createContext( ) ;`}
                                     </p>
                                 </li>
                                 <li>
@@ -50,7 +50,7 @@ export default function useContextPage() {
                                     <p className="command">
                                         <p>
                                             {`
-                                        export default function context1Provider({ children }) {`}
+                                        export default function AppContext1Provider({ children }) {`}
                                         </p>
                                         <p className="comment">{`\\\\ all state-datas, API-call functions, event-handler-functions, .. created here & stored in an object`}</p>
                                         <p className="code">
@@ -60,20 +60,24 @@ export default function useContextPage() {
                                             {`\\\\ provide the value-object to {children} , so that it can be consumed.`}
                                         </p>
                                         <p className="ml-6">
-                                            {`return <context1.Provider value = {value} >`}
+                                            {`return <AppContext1.Provider value = {value} >`}
                                         </p>
                                         <p className="code2 ">{`{children}`}</p>
-                                        <p className="ml-6">{`</context1.Provider>`}</p>
+                                        <p className="ml-6">{`</AppContext1.Provider>`}</p>
                                         <p>{`}`}</p>
                                     </p>
                                     <p>
                                         Also, to make the provider function
-                                        work, wrap the {`<App />`} component in
-                                        "index.js" file as :
+                                        work, wrap the {`<Parent />`} component
+                                        in Parent's parent js-file. If we want
+                                        to use the context throughout our
+                                        react-app, then we've to wrap{" "}
+                                        {`<App />`} component between these tags
+                                        in index.js file in similar way as :
                                         <p className="command">
-                                            <p>{`<context1Provider>`}</p>
-                                            <p className="ml-6">{`<App />`}</p>
-                                            <p>{`</context1Provider>`}</p>
+                                            <p>{`<AppContext1Provider>`}</p>
+                                            <p className="ml-6">{`<Parent />`}</p>
+                                            <p>{`</AppContext1Provider>`}</p>
                                         </p>
                                         This is needed because only the children
                                         of provider-tags can consume the
@@ -81,7 +85,12 @@ export default function useContextPage() {
                                         argument of provider-function as{" "}
                                         {`{children}`}, & then the function
                                         provided the value-object to them, in
-                                        return-statement.
+                                        return-statement. Also need to import
+                                        AppContext1Provider in the parent's
+                                        parent file :
+                                        <p className="sub-command">
+                                            {`import AppContext1Provider from "src/context/AppContext1.js";`}
+                                        </p>
                                     </p>
                                 </li>
                                 <li>
@@ -106,7 +115,7 @@ export default function useContextPage() {
                                     also import the required context, which
                                     we've created :
                                     <p className="sub-command">
-                                        {`import { context1 } from "src/context/context1.js" ;`}
+                                        {`import { AppContext1 } from "src/context/AppContext1.js" ;`}
                                     </p>
                                 </li>
                             </ul>
@@ -117,7 +126,7 @@ export default function useContextPage() {
                             required, out of all created in the
                             provider-function.)
                             <p className="command">
-                                {`const [ data1, function1, handler1 ] = useContext( context1
+                                {`const { data1, function1, handler1 } = useContext( AppContext1
                                 );`}
                             </p>
                             Now, can use all these data & functions, thinking
@@ -131,8 +140,14 @@ export default function useContextPage() {
                 <UseContextDemo />
 
                 <div>
-                    For implementation, refer
-                    <NavLink to=""> link</NavLink>
+                    For implementation, refer{" "}
+                    <NavLink
+                        to="https://rb.gy/1ssb2"
+                        target="_blank"
+                        className="link"
+                    >
+                        link
+                    </NavLink>
                 </div>
             </div>
         </div>

@@ -98,8 +98,14 @@ export default function useStatePage() {
                 <UseStateDemo />
 
                 <div>
-                    For implementation, refer
-                    <NavLink to=""> link</NavLink>
+                    For implementation, refer{" "}
+                    <NavLink
+                        to="https://rb.gy/q3qet"
+                        target="_blank"
+                        className="link"
+                    >
+                        link
+                    </NavLink>
                 </div>
             </div>
         </div>

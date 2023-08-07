@@ -21,7 +21,9 @@ export default function UseStateDemo() {
                 <button className="operation-btn" onClick={decrementHandler}>
                     Decrement
                 </button>
+
                 <div className="value">{count}</div>
+
                 <button className="operation-btn" onClick={incrementHandler}>
                     Increment
                 </button>

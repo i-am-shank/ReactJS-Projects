@@ -33,3 +33,7 @@
 .content {
     @apply flex flex-col justify-center items-center;
 }
+
+.link {
+    @apply underline text-blue-500;
+}

@@ -98,8 +98,14 @@ export default function UseRefPage() {
                 <UseRefDemo />
 
                 <div>
-                    For implementation, refer
-                    <NavLink to=""> link</NavLink>
+                    For implementation, refer{" "}
+                    <NavLink
+                        to="https://rb.gy/9ds5g"
+                        target="_blank"
+                        className="link"
+                    >
+                        link
+                    </NavLink>
                 </div>
             </div>
         </div>

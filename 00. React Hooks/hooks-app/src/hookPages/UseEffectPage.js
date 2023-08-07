@@ -80,12 +80,12 @@ export default function useEffectPage() {
                 <UseEffectDemo />
 
                 <div>
-                    For implementation, refer
+                    For implementation, refer{" "}
                     <NavLink
-                        to="https://github.com/i-am-shank/ReactJS-Projects"
+                        to="https://rb.gy/hoi06"
                         target="_blank"
+                        className="link"
                     >
-                        {" "}
                         link
                     </NavLink>
                 </div>
