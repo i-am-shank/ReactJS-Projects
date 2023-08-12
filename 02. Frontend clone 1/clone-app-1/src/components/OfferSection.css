@@ -1,0 +1,15 @@
+.offer-section-content {
+    @apply flex justify-between w-11/12 max-w-[90%] mx-auto;
+}
+
+.offer-section-heading {
+    @apply text-7xl pr-14;
+}
+
+.offer-section-left {
+    @apply w-[45vw];
+}
+
+.offer-section-right {
+    @apply w-[55vw];
+}

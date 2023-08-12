@@ -1,0 +1,19 @@
+.strategy {
+    @apply border-[1px] border-gray-800 rounded-lg mx-4 my-4;
+}
+
+.strategy-content {
+    @apply flex flex-col gap-6 px-6 py-4;
+}
+
+.strategy-text {
+    @apply flex flex-col gap-3;
+}
+
+.strategy-heading {
+    @apply font-normal text-3xl;
+}
+
+.strategy-para {
+    @apply opacity-80 text-[1.075rem];
+}

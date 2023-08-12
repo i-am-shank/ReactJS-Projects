@@ -1,0 +1,19 @@
+.strategy-section-content {
+    @apply py-14 px-4;
+}
+
+.strategy-section-heading {
+    @apply font-semibold text-[2.75rem];
+}
+
+.strategy-section-subheading {
+    @apply text-xl opacity-90;
+}
+
+.strategy-section-top {
+    @apply flex flex-col justify-center items-center gap-6;
+}
+
+.strategy-section-bottom {
+    @apply grid grid-cols-1 md:grid-cols-2;
+}

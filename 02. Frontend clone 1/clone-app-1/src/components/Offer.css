@@ -1,0 +1,19 @@
+.offer {
+    @apply border-t-2 border-gray-600 border-dashed;
+}
+
+.offer-container {
+    @apply flex items-start gap-2 py-8;
+}
+
+.offer-content {
+    @apply -mt-3;
+}
+
+.offer-heading {
+    @apply text-3xl;
+}
+
+.offer-para {
+    @apply opacity-90;
+}

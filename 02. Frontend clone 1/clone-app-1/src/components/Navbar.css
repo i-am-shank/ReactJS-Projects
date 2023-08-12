@@ -1,0 +1,31 @@
+:root {
+    --dark-blue: #161f59;
+}
+
+.navbar {
+    @apply bg-[var(--dark-blue)] text-white w-[100vw];
+}
+
+.content {
+    @apply w-[90%] max-w-[1400px] flex justify-between mx-auto py-8 text-lg;
+}
+
+.nav-right {
+    @apply flex gap-8 items-center justify-center;
+}
+
+.nav-item {
+    @apply flex gap-2 items-center;
+}
+
+.down-arrow {
+    @apply mb-2;
+}
+
+.btn {
+    @apply border-[1px] border-[var(--yellow)] transition-all duration-200 ease-in px-6 py-4 rounded-full flex justify-center items-center;
+}
+
+.btn-empty {
+    @apply text-[var(--yellow)] bg-[var(--dark-blue)] hover:bg-[var(--yellow)] hover:text-[var(--dark-blue)];
+}

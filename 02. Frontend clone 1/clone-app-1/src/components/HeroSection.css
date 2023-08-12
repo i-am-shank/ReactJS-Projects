@@ -1,0 +1,32 @@
+:root {
+    --yellow: #e7fd7f;
+}
+
+.hero-section {
+    @apply w-[100vw] bg-[var(--dark-blue)] text-white;
+}
+
+.hero-content {
+    @apply flex w-[90%] max-w-[1400px] mx-auto items-center justify-between py-24;
+}
+
+.hero-left {
+    @apply flex flex-col gap-8 items-start;
+}
+
+.hero-heading {
+    @apply text-[6rem] leading-none;
+    font-family: sans-serif;
+}
+
+.hero-para {
+    @apply text-2xl opacity-80 max-w-[528px];
+}
+
+.graph {
+    @apply w-[50vw];
+}
+
+.btn-filled {
+    @apply text-[var(--dark-blue)] bg-[var(--yellow)] hover:bg-[var(--dark-blue)] hover:text-[var(--yellow)];
+}
