@@ -2,6 +2,7 @@ import "./OfferSection.css";
 
 import { OfferDetails } from "./OfferDetails";
 import Offer from "./Offer";
+import line from "../images/line.svg";
 
 export default function OfferSection() {
     return (
@@ -12,6 +13,9 @@ export default function OfferSection() {
                         Offer a better product with a competitive edge by
                         managing treasury risk.
                     </h1>
+                </div>
+                <div className="offer-section-center">
+                    <img src={line} alt="" />
                 </div>
                 <div className="offer-section-right">
                     {OfferDetails.map((currOffer) => {

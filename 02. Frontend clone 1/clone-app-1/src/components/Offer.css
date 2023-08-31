@@ -3,17 +3,27 @@
 }
 
 .offer-container {
-    @apply flex items-start gap-2 py-8;
+    /* @apply flex items-start gap-2 py-8; */
+    /* this is causing error in bullet-size.. different sizes */
+    @apply py-12 grid grid-cols-12 gap-4;
+}
+
+.bullet {
+    @apply col-span-1;
+}
+
+.bullet-pointer {
+    @apply w-8;
 }
 
 .offer-content {
-    @apply -mt-3;
+    @apply -mt-3 flex flex-col gap-4 col-span-11 w-[88%] lg:leading-[0.7rem];
 }
 
 .offer-heading {
-    @apply text-3xl;
+    @apply text-4xl;
 }
 
 .offer-para {
-    @apply opacity-90;
+    @apply opacity-90 lg:text-xl;
 }

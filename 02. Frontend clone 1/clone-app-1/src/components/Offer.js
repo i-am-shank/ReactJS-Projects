@@ -6,7 +6,7 @@ export default function Offer(props) {
         <div className="offer">
             <div className="offer-container">
                 <div className="bullet">
-                    <img src={bullet} alt="-> " />
+                    <img src={bullet} alt="-> " className="bullet-pointer" />
                 </div>
                 <div className="offer-content">
                     <div className="offer-heading">{props.heading}</div>
