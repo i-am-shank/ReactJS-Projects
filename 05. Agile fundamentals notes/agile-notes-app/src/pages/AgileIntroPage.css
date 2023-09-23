@@ -1,0 +1,11 @@
+.agile-intro-wrapper {
+    @apply w-[100vw] flex justify-center items-center mx-auto py-4;
+}
+
+.agile-intro {
+    @apply max-w-[92%];
+}
+
+.list-item {
+    @apply grid grid-cols-3 text-center border-b-[1px] py-1 border-[var(--border-color)] border-dashed;
+}

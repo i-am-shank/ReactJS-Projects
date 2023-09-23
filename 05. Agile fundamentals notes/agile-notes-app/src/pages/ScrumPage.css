@@ -1,0 +1,31 @@
+.scrum-page-wrapper {
+    @apply flex justify-center items-center;
+}
+
+.scrum-page {
+    @apply max-w-[92%] flex flex-col gap-4 py-6;
+}
+
+.scrum-values {
+    @apply my-0;
+}
+
+.list-item3 {
+    list-style: circle outside none;
+    display: list-item;
+    margin-left: 1em;
+}
+
+.list-item4 {
+    list-style: decimal outside none;
+    display: list-item;
+    margin-left: 1em;
+}
+
+.sub-header2 {
+    @apply w-fit underline;
+}
+
+.scrum-terms-list {
+    @apply flex flex-col gap-3;
+}

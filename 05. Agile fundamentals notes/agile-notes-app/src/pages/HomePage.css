@@ -1,0 +1,31 @@
+.homePage-wrapper {
+    @apply flex flex-col items-center justify-center h-[100vh];
+}
+
+.homePage {
+    @apply max-w-[92%] flex flex-col gap-6 justify-center border-l-2 border-[var(--border-color)] border-opacity-20 pl-8 h-fit py-6;
+}
+
+.page-box {
+    @apply bg-[var(--bg-color2)] w-fit px-4 py-2 rounded-lg font-bold;
+}
+
+.page-box:hover {
+    @apply cursor-pointer scale-105;
+}
+
+.link-text2 {
+    @apply bg-[var(--bg-color2)] w-fit my-4 py-1 px-2 rounded-lg font-semibold italic;
+}
+
+.link-text2:hover {
+    @apply cursor-pointer scale-105;
+}
+
+.agile-frameworks {
+    @apply mt-8;
+}
+
+.frameworks-list {
+    @apply mt-5;
+}

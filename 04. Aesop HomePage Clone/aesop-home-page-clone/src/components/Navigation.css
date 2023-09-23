@@ -1,0 +1,56 @@
+:root {
+    --gold: rgb(194, 194, 175);
+    --bg-black: rgb(37, 37, 37);
+    --text-white: rgb(242, 244, 223);
+    --text-brown: rgb(57, 57, 56);
+    --text-dark-brown: rgb(51, 51, 51);
+}
+
+.nav {
+    font-family: "Suisse Regular", sans-serif;
+    /* @apply text-sm; */
+    font-size: 0.925rem;
+    line-height: 1.1rem;
+}
+
+.nav-top {
+    @apply bg-[var(--gold)] py-[0.65rem] flex pl-5 lg:pl-0 lg:justify-center items-center;
+}
+
+.nav-top-left {
+    @apply text-[var(--text-brown)] tracking-tight;
+    font-weight: 400;
+}
+
+.nav-top-right {
+    /* font-weight: 530; */
+    @apply cursor-pointer font-semibold text-[var(--text-dark-brown)] text-sm tracking-normal underline lg:no-underline;
+}
+
+.nav-top-right:hover {
+    @apply underline;
+}
+
+.nav-mid {
+    @apply bg-[var(--bg-black)] text-[var(--text-white)] py-3 flex justify-between lg:justify-center items-center gap-6 px-5 lg:px-0;
+}
+
+.nav-mid-right {
+    @apply lg:pr-0 pr-3;
+}
+
+.nav-bottom {
+    @apply flex justify-between items-center py-6 px-8;
+}
+
+.nav-bottom-left-lg {
+    @apply hidden lg:flex lg:gap-3 lg:items-center;
+}
+
+.nav-bottom-left-md {
+    @apply lg:hidden flex gap-3;
+}
+
+.nav-bottom-right {
+    @apply flex gap-3;
+}

@@ -1,0 +1,7 @@
+.agile-terms-wrapper {
+    @apply flex flex-col justify-center items-center;
+}
+
+.agile-terms {
+    @apply max-w-[92%];
+}

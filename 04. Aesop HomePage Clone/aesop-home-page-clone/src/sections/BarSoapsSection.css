@@ -1,0 +1,48 @@
+.barSoaps-section {
+    font-family: "Suisse Regular", sans-serif;
+}
+
+.barSoaps-content {
+    @apply bg-[url('../assets/home-bg1-images/home-bg1-1925.png')] bg-no-repeat bg-cover;
+}
+
+.barSoaps-bg {
+    @apply absolute z-0;
+}
+
+.barSoaps-bg-img {
+    @apply w-[100%] h-[100%] object-cover;
+}
+
+.barSoaps-text-wrapper {
+    @apply h-full flex flex-col justify-center;
+}
+
+.barSoaps-text {
+    @apply relative z-10 flex gap-8 text-white;
+}
+
+.barSoaps-text-right {
+    @apply flex flex-col gap-4;
+}
+
+.soap-btn {
+    @apply px-5 py-4 border-[1px] text-sm;
+}
+
+.soap-btn:hover {
+    @apply bg-white text-black transition-all duration-200 ease-in;
+}
+
+.soap-btn-content {
+    @apply flex justify-between gap-10;
+}
+
+.copyright {
+    @apply text-xs;
+}
+
+.aesop-title {
+    @apply text-2xl;
+    font-family: "Suisse Regular", sans-serif;
+}

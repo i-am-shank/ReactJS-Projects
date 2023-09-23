@@ -1,0 +1,35 @@
+/* App wide stylings here :- */
+
+:root {
+    /* https://colorhunt.co/palette/352f445c5470b9b4c7faf0e6 */
+
+    /* Light Mode Colors */
+    --text-color-light-mode: #5c5470;
+    --bg-color-light-mode: #faf0e6;
+    --border-color-light-mode: #352f44;
+    --bg-color2-light-mode: #b9b4c7;
+
+    /* Dark Mode Colors */
+    --text-color-dark-mode: #b9b4c7;
+    --bg-color-dark-mode: #352f44;
+    --border-color-dark-mode: #faf0e6;
+    --bg-color2-dark-mode: #5c5470;
+
+    /* Currently Active Colors */
+    --text-color: var(--text-color-light-mode);
+    --bg-color: var(--bg-color-light-mode);
+    --border-color: var(--border-color-light-mode);
+    --bg-color2: var(--bg-color2-light-mode);
+}
+
+.header {
+    @apply font-extrabold text-2xl py-3 text-center;
+}
+
+.sub-header {
+    @apply font-bold text-lg py-1 text-center;
+}
+
+.topic {
+    @apply italic font-semibold;
+}
